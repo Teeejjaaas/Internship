@@ -17,3 +17,5 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
